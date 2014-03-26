@@ -1,48 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Ecosystem-cal by CaptainCalliope</title>
-  </head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Exo+2:400,900italic,600,500italic,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
         <header>
-          <h1>Ecosystem-cal</h1>
-          <h2>A community calendar for Boston&#39;s civic tech ecosystem.</h2>
+            <h1>
+                <span class="city">Boston</span>
+                <span class="civic">Civic Innovation </span>
+                <span class="cal">Calendar</span>
+            </h1>
+            <nav>
+                <a href="#">Add an event ></a>
+            </nav>
         </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/CaptainCalliope/ecosystem-cal/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/CaptainCalliope/ecosystem-cal/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/CaptainCalliope/ecosystem-cal" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-           
-           <iframe src="https://www.google.com/calendar/embed?src=codeforamerica.org_sltfo4ll9ncgjtdj9iu2veja48%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-           
+        <section class="main">
+            <div class="about">
+                <p>But to learn all about these recondite matters, your best way is at once to descend into the blubber-room, and have a long talk with its inmates. This place has previously been mentioned as the receptacle for the blanket-pieces, when stript and hoisted from the whale. 
+                <p>
+                                When the proper time arrives for cutting up its contents, this apartment is a scene of terror to all tyros, especially by night. On one side, lit by a dull lantern, a space has been left clear for the workmen. They generally go in pairs,&mdash;a pike-and-gaffman and a spade-man.
+                </p>
+                <p>
+                                The whaling-pike is similar to a frigate's boarding-weapon of the same name. The gaff is something like a boat-hook. With his gaff, the gaffman hooks on to a sheet of blubber, and strives to hold it from slipping, as the ship pitches and lurches about. 
+                </p>
+                <p>
+                                Meanwhile, the spade-man stands on the sheet itself, perpendicularly chopping it into the portable horse-pieces. This spade is sharp as hone can make it; the spademan's feet are shoeless; the thing he stands on will sometimes irresistibly slide away from him, like a sledge. If he cuts off one of his own toes, or one of his assistants', would you be very much astonished? Toes are scarce among veteran blubber-room men.</p>
+                </p>
+            </div>
+            <div class="calendar">
+                <iframe src="http://calproxy-cfb.rhcloud.com/" frameborder="0"></iframe>
+            </div>
         </section>
 
         <footer>
-          Ecosystem-cal is maintained by <a href="https://github.com/CaptainCalliope">CaptainCalliope</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+            <p>
+                Ecosystem-cal is maintained by <a href="https://github.com/CaptainCalliope">CaptainCalliope</a>
+            </p>
         </footer>
 
-        
-      </div>
-    </div>
-  </body>
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
 </html>
