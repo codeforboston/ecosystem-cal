@@ -106,6 +106,10 @@ body > header nav a:hover {
    width: 100%;
    height: 100%;
 }
+.carat {
+   display: inline;
+   padding-left: 10px;
+}
 
 /** Footer **/
 body > footer {
