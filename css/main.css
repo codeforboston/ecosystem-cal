@@ -12,7 +12,7 @@ body {
    margin: 0;
    padding: 2% 3%;
    /* border-right: 10px solid #d7eef4; */
-   border-right: 10px solid #E3E9FF;
+   /* box-shadow: 1px 1px 1px #ccc; */
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    -ms-box-sizing: border-box;
@@ -101,6 +101,7 @@ body > header nav a:hover {
    top: 0;
    bottom: 0;
    padding: 1.5%;
+   box-shadow: inset 2px 0px 4px rgba(0,0,0,0.25);
 }
 .calendar iframe {
    width: 100%;
